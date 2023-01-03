@@ -10,6 +10,16 @@
   </head>
 
   <body>
+     <nav id="menu">
+      <ul>
+        <li>
+          <%= link_to "Principal", root_path %>
+          <a href="#">Sobre</a>
+          <a href="#">Preço</a>
+          <a href="#">Contato</a>
+        </li>
+      </ul>
+    </nav>
     <div id="content">
       <%= yield %>      
     </div>
