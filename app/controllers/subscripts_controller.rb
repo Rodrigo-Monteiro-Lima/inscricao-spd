@@ -1,3 +1,5 @@
 class SubscriptsController < ApplicationController
-  def new; end
+  def new
+    @subscript = Subscript.new
+  end
 end
